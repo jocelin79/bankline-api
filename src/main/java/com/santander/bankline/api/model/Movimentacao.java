@@ -27,9 +27,14 @@ public class Movimentacao {
 
   @Column(name = "data_hora")
   private LocalDateTime dataHora;
-  private String decricao;
+
+  private String descricao;
+
   private Double valor;
 
   @Enumerated(EnumType.STRING)
-  private MovimentacaoTipo tipo; 
+  private MovimentacaoTipo tipo;
+
+  @Column(name = "id_conta")
+  private Integer idConta;
 }

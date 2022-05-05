@@ -28,4 +28,7 @@ public class Correntista {
 
   @Embedded
   private Conta conta;
+
+  @Column(name = "id_conta")
+  private Integer idConta; 
 }
