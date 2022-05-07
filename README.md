@@ -1,9 +1,14 @@
-# Getting Started
+## 💻 Projeto
+Esta aplicação é fruto de um programa de ensino da Digital Innovation One junto ao Santander. Neste projeto, foi abstraido o domínio bancário em uma API REST com Java (Back-end). A Banckline-api provome movimentações financeira simples como cadastor de coreentistase realizações de movimentações no saldo de uma conta. Além disso, arquitetura utilizada foi a do Spring Framework + Springboot, estruturad no padrão MVC para prover
 
-### Reference Documentation
-For further reference, please consider the following sections:
+## 🚀 Tecnologias
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.6.7/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.6.7/maven-plugin/reference/html/#build-image)
-
+Este projeto foi desenvolvido com as seguintes tecnologias:
+ - Java 11
+ - Maven
+ - Spring Web
+ - Spring Data JPA
+ - PostgreSQL Driver
+ - Lombok
+ - Hibernate
+ - Swagger
